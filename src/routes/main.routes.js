@@ -66,6 +66,7 @@ router.put('/:id', async (req, res) => {
     }
 });
 
+
 //DELETAR SOMENTE O REGISTRO COM O ID
 router.delete('/:id', async (req, res) => {
     try {
